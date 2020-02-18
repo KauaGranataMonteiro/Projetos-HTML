@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center><h1> Giorno Giovanna </h1> </center>
+<br><br>
+<button onclick="document.getElementById('myImage').src='normal.png'">Classic</button>
+
+<img id="myImage" src="normal.png" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='cursed.png'">Cursed</button>
+
+</body>
+</html>
