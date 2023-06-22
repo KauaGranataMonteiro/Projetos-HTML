@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+}
+
+:root{
+    --color-light: #fff;
+    --color-dark:  #262e33;
+    --color-black: #000;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--color-dark);
+}
+
+p{
+    color: var(--color-light);
+}
+
+.header-page{
+    width: 100%;
+    height: 100px;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+    background-image: linear-gradient(rgba(0,0,30,.3), rgba(0,0,3,.6));
+}
+
+.box-title{
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2px;
+    position: relative;
+    left: 3.5%;
+}
+
+.box-title h1{
+    position: relative;
+    top: 15px;
+}
+
+.header-menu{
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    top: 20px;
+}
+
+.header-menu ul{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    list-style:disc;
+    color: var(--color-light);
+}
+
+li:first-child {
+    list-style: none
+  }
+
+ .header-menu a{
+    color: var(--color-light);
+    text-decoration:none;
+    font-weight: 500;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.header-menu a:hover{
+    color: #6d6c6c;
+}
+
+h1{
+    font-size: 24px;
+    color: var(--color-light);
+}
+
+h2{
+    color: var(--color-light);
+}
+
+.main{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image1{
+    background-image: url(../images/pexels-eberhard-grossgasteiger-1428277\ \(2\).jpg);
+    filter: blur(4px);
+    position: fixed;
+   
+    
+}
+
+.opening{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    gap: 20px;
+}
+
+
+
+.opening h2{
+    position: relative;
+    top: 11%;
+   
+}
+
+.main-content{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-content img{
+    width: 12%;
+}
+
+.main-content p{
+    display: block;
+    text-align: center;
+    width: 45%
+}
+
+.robot{
+    display: flex;
+    height: 150%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    background-color: var(--color-dark);
+    gap: 75px;
+}
+
+.robot h2{
+    font-size: 30px;
+    margin-top: 1%;
+    
+}
+
+.robot p{
+    text-align: center;
+    display: block;
+    width: 52%;
+    margin-bottom: 4%;
+
+}
+
+.scroll-container {
+    background-color: var(--color-dark);
+    width: 50%;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 0px;
+  }
+
+.scroll-container img {
+    padding: 10px;
+    width: 50%;
+    height: auto;
+  }
+
+  .robot-btn{
+    color: #fff;
+    background-image: linear-gradient(to bottom, #322d2d, var(--color-black));
+    border: 2px solid var(--color-black);
+    margin-bottom: 2%;
+    padding: 7px 25px;
+    font-size: 18px;
+    border-radius: 70px;
+    transition: .5s;
+    text-decoration: none;
+    }
+
+.robot-btn:hover{
+    background-color: transparent;
+    font-size: 20px;
+    }
+
+
+
+
+
+
+
